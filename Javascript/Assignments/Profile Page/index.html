@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="./style/style-main.css">
+        <link rel="stylesheet" href="./style/style-nav.css">
+        <link rel="stylesheet" href="./style/style-left-body.css">
+        <link rel="stylesheet" href="./style/style-right-body.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <h1 class="nav-title" id="title">Profile</h1>
+                <div class="nav-links">
+                    <a href="https://zughayyar.github.io/">Home</a>
+                    <a href="#" class="active">My Profile</a>
+                    <a href="#">Find Connections</a>
+                    <button class="btn" id="sign_button" onclick="change_sign()">Sign Out</button>
+                </div>
+            </div>
+            <div class="main-body">
+                <div class="l-body">
+
+                     <!-- This is the card division -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-photo">
+                                <img id="photo-profile" src="./images/anas.jpeg" alt="User profile photo">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 id="profile_name">Anas Zughayyar</h1>
+                            <img src="./icons/map-marker.png" alt="!">
+                            <label>Jerusalem</label>
+                            <p class="discription">
+                                Develper | Engineer | Problem Solver <br>
+                                Master of shadows and Internet!
+                            </p>
+                            <img src="./icons/gear.png" alt="">
+                            <a id="anchor-card" href="#" onclick="change_name()">edit profile</a>
+                        </div>
+                    </div>
+
+                    <!-- This is the Education division -->
+                    <div class="education">
+                        <h2 id="edu-title">Education</h2>
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <h4>Aug 2024 - Feb 2025</h4>
+                        <h3>B.A. Civil Structural Engineering - Birzeit University</h3>
+                        <h4>Aug 2010 - Jun 2015</h4>
+                    </div>
+                </div>
+                <div class="r-body">
+                    <div class="requests" id="top-title">
+                        <h2 class="title">
+                            <label id="notif-num">2</label>
+                            Connection Requests
+                        </h2>
+                        <h3 class="req-entry" id="req-entry-1">
+                            <img class="users-photo"  src="./images/todd-s.jpg" alt="user-icon">
+                            <span class="req-entry-text"> Todd E </span>
+                            <img class="req-entry-photo" src="./icons/accept-circle.png" alt="accept" onclick="remove_entry_1(),add_conn()">
+                            <img class="req-entry-photo" src="./icons/close-circle.png" alt="close" onclick="remove_entry_1()"> 
+                        </h3>
+                        <h3 class="req-entry" id="req-entry-2">
+                            <img class="users-photo"  src="./images/phil-s.jpg" alt="user-icon">
+                            <span class="req-entry-text">Phill K</span>
+                            <img class="req-entry-photo" src="./icons/accept-circle.png" alt="accept" onclick="remove_entry_2(),add_conn()">
+                            <img class="req-entry-photo" src="./icons/close-circle.png" alt="close" onclick="remove_entry_2()">
+                        </h3>
+                    </div>
+                    
+                    <div class="connections" >
+                        <h2 class="title">
+                            <label id="conn-num">200</label>
+                            Your Connections
+                        </h2>
+                        <h3 class="req-entry">
+                            <img class="users-photo"  src="./images/adrien-s.jpg" alt="user-icon">
+                            <span class="req-entry-text">Adrien D</span>
+                        </h3>
+                        <h3 class="req-entry">
+                            <img class="users-photo"  src="./images/anne-s.jpg" alt="user-icon">
+                            <span class="req-entry-text">Anne J</span>
+                        </h3>
+                        <h3 class="req-entry">
+                            <img class="users-photo"  src="./images/alayne-s.jpg" alt="user-icon">
+                            <span class="req-entry-text">Alayne T</span>
+                        </h3>
+                        <h3 class="req-entry">
+                            <img class="users-photo"  src="./images/arry-s.jpg" alt="user-icon">
+                            <span class="req-entry-text">Arry Y</span>
+                        </h3>
+                        <a id="more" href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+
+.nav {
+    width: inherit;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    font-family: BebasNeue;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-links {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 0 20px 0 20px;
+}
+
+
+.active {
+    color: whitesmoke;
+}
+
+.btn {
+    border-color: black;
+    color: white;
+    background-color: #33a2b8;
+    height: 45px;
+    width: 90px;
+    border-width: 2px;
+    font-size: 15px;
+
+}
+
+#title {
+    margin-left: 20px;
+}
