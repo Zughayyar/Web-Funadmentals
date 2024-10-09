@@ -1,0 +1,49 @@
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h4 {
+    color: gray;
+    margin-left: 30px;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+}
+
+
+.main-body {
+    width: inherit;
+    height: 700px;
+    display: flex;
+    margin-top: 30px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover:not(#more) {
+    background-color: #33a2b8;
+}
+
+button:hover {
+    color: black;
+}
+
+
+.a , .b{
+    background-color: white;
+}

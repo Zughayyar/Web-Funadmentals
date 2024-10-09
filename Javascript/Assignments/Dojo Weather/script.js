@@ -10,7 +10,7 @@ function remove_cookie() {
 }
 
 function convert_temp(temp) {
-    //console.log(temp)
+    console.log(temp)
     if (temp == "c") {
         convert_f_to_c()
     }
@@ -25,7 +25,7 @@ function convert_c_to_f() {
         
         var val = temp_value[i].textContent
         var new_val = (val*(9/5)) + 32
-        var rounded_new_temp = Number(new_val).toFixed(2)
+        var rounded_new_temp = Math.round(new_val)
         temp_value[i].textContent = rounded_new_temp
 
     }
@@ -33,15 +33,11 @@ function convert_c_to_f() {
 
 function convert_f_to_c() {
     var temp_value = document.querySelectorAll(".temp-value")
-    
     for (var i=0;i<temp_value.length;i++) {
         
         var val = temp_value[i].textContent
         var new_val = (val - 32)*(5/9)
-        var rounded_new_temp = Number(new_val).toFixed(2)
+        var rounded_new_temp = Math.round(new_val)
         temp_value[i].textContent = rounded_new_temp
     }
 }
-
-
-title_San.textContent = "Anas"

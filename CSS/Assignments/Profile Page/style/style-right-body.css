@@ -1,0 +1,92 @@
+.r-body {
+    width: inherit;
+    flex: 1;
+    margin-left: 15px;
+
+}
+
+.title {
+    background-color: #333;
+    color: white;
+    padding-left: 30px;
+    padding-top: 15px;
+    height: 45px;
+    margin: 0;
+
+}
+
+.requests {
+    height: 200px;
+    margin-top: 30px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.connections {
+    height: 320px;
+    margin-top: 30px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#top-title {
+    margin-top: 0;
+}
+
+#notif-num {
+    display: inline-block;
+    background-color: gray;
+    width: 21px;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+
+#conn-num{
+    display: inline-block;
+    background-color: gray;
+    width: 50px;
+    padding-left: 10px;
+    border-radius: 45%;
+}
+
+
+.req-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.req-entry-photo {
+    width: 40px;
+    margin: 0px 5px 0px 5px;
+}
+
+.req-entry-text {
+    flex: 2;
+}
+
+.users-photo {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#more {
+    color: blue;
+    height: 40px;
+    border-top: gray;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+
