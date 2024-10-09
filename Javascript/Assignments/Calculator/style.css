@@ -1,0 +1,105 @@
+/*
+Title: Calculator Assignment.
+Type: CSS file.
+Date: 07/10/2024
+Developer: Anas Zughayyar
+*/
+
+/* CSS Resit */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    color: white;
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: #222222;
+    margin: 10px;
+    padding: 25px;
+}
+
+.btn-norm {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #666666;
+
+} 
+
+.btn-norm:active {
+    background-color: #918f8f;
+
+}
+
+.btn-opr {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #f78c04;
+    padding: 0px 2px 2px 0px ;
+}
+
+.btn-opr:active {
+    background-color: #f3c07d;
+
+}
+
+#equals {
+    width: 96%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: #cccccc;
+    color: black;
+}
+
+#equals:active {
+    background-color: #dad9d9;
+}
+
+#display {
+    text-align: right;
+    font-size: 40px;
+    margin: 10px 0px;
+    max-width: 260px;
+    overflow: hidden;
+    user-select:none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#display-operation {
+    height: 20px;
+    font-size: 15px;
+    text-align: end;
+    user-select:none;
+}
+
+.row {
+    width: 270px;
+}
+
+.back-space {
+    background-color: #222222;
+}
+
+.back-space:active {
+    background-color: #5c4e4e;
+}
